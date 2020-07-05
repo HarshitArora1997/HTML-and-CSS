@@ -1,68 +1,33 @@
-body{
-	margin: 0px;
-	padding: 0px;
+/*-----header-----*/
+#main-header {
+    height: 400px;
 }
 
-nav{
-	background-color: rgb(255, 228, 196);
-
+#about-site {
+    color: grey;
 }
 
-p{
+
+
+/*-----main-----*/
+p {
     color: dimgrey;
-    font-size: 20px; 
 }
 
-img{
-	width: 100%;
+#blog-content {
+    width: 1000px;
 }
 
-
-#about-site{
- 	color: grey;
-}
-#site-title{
-	font-size: 1.8rem;
-}
-
-.h-style{
-	color: darkslategrey;
-	font-size: 25px;
+.h-style {
+    color: darkslategrey;
 }
 
 h1.h-style{
-	font-size: 30px;
-	font-family: sans-serif;
+    font-size: 40px;
+    font-family: sans-serif;
 }
 
-h3.h-style{
-	font-family: monospace;
-	font-size: 18px;
-}
-
-
-.uppercase{
-	text-transform: uppercase;
-}
-
-#features-of-the-link{
-	font-size: 28px;
-	color: black;
-}
-
-#features-of-the-link a:hover{
-	color: orange;
-}
-
-
-.hover-heading h3:hover{
-	color: red;
-}
-
-#blog-content{
-	width: 90vw;
-}
-
-#logo{
-	width: 210px;
+h4.h-style{
+    font-size: 18px;
+    font-family: monospace;
 }
